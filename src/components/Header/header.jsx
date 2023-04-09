@@ -5,7 +5,7 @@ import Buttons from "./Buttons/buttons";
 const Header = (props) => {
   return (
     <div className={s.background}>
-      <p className={s.zagolovok}>STON.fi Blog</p>
+      <p className={s.zagolovok}>Blog</p>
       <p className={s.podzagolovok}>
         Updates and announcements from the STON.fi team
       </p>
