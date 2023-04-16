@@ -117,12 +117,13 @@
   position: absolute;
   width: 398px;
   height: 76px;
-  left: 521px;
+  left: 36%;
   top: 1902px;
 }
 .tgframe {
   width: 48px;
   height: 48px;
+  margin-right: 20px;
 
   background: rgba(0, 0, 0, 0.04);
   border-radius: 60px;

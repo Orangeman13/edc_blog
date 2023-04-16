@@ -8,8 +8,9 @@
   position: absolute;
   width: 736px;
   height: 200px;
-  left: 352px;
+
   top: 412px;
+  left: 24%;
 }
 .lastQuizText {
   display: flex;
@@ -20,6 +21,7 @@
 
   width: 736px;
   height: 160px;
+  text-align: center;
 
   flex: none;
   order: 0;
@@ -53,7 +55,7 @@
 
   width: 736px;
   height: 66px;
-
+  text-align: center;
   flex: none;
   order: 0;
   align-self: stretch;
