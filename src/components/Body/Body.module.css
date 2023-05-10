@@ -1,0 +1,30 @@
+.allframe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 100px;
+  position: absolute;
+  width: 1440px;
+  height: 1166px;
+  top: 390px;
+  left: 352px;
+}
+.p {
+  position: absolute;
+  top: 400px;
+  left: 352px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #017bff;
+}

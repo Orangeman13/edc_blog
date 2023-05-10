@@ -1,32 +1,26 @@
 import React from "react";
-import s from "./buttons.module.css";
+import s from "./Buttons.module.css";
 
 const Buttons = (props) => {
   return (
-    <div className={s.knopki}>
-      <div>
-        <button className={s.slip}>All posts</button>
-      </div>
-      <div>
-        <button className={s.slip}>
-          <img src="./pictures/4.svg" alt="4" /> Ston Academy
-        </button>
-      </div>
-      <div>
-        <button className={s.slip}>
-          <img src="./pictures/1.svg" alt="4" /> New jettons
-        </button>
-      </div>
-      <div>
-        <button className={s.slip}>
-          <img src="./pictures/2.svg" alt="4" /> New features
-        </button>
-      </div>
-      <div>
-        <button className={s.slip}>
-          <img src="./pictures/3.svg" alt="4" /> Top news
-        </button>
-      </div>
+    <div className={s.allframe}>
+      <button className={s.button}> All posts </button>
+      <button className={s.button}>
+        {" "}
+        <img src="./pictures/Academ.svg" alt="App" /> Ston Academy{" "}
+      </button>
+      <button className={s.button}>
+        {" "}
+        <img src="./pictures/Jett.svg" alt="App" /> New jettons{" "}
+      </button>
+      <button className={s.button}>
+        {" "}
+        <img src="./pictures/Featur.svg" alt="App" /> New features{" "}
+      </button>
+      <button className={s.button}>
+        {" "}
+        <img src="./pictures/News.svg" alt="App" /> Ton news{" "}
+      </button>
     </div>
   );
 };
