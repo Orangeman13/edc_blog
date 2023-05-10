@@ -1,0 +1,34 @@
+.allframe {
+  position: absolute;
+  width: 736px;
+  height: 48px;
+  left: 352px;
+  top: 120px;
+  color: white;
+}
+.p1 {
+  position: absolute;
+  width: 736px;
+  height: 48px;
+  left: 352px;
+  top: 110px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+}
+.p2 {
+  position: absolute;
+  width: 544px;
+  height: 32px;
+  left: 448px;
+  top: 180px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: white;
+}

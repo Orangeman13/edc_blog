@@ -1,210 +1,65 @@
-.allFrame {
+.allframe {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 12px;
-
+  gap: 100px;
+  position: absolute;
+  width: 1440px;
+  height: 1166px;
+  top: 810px;
+  left: 352px;
+}
+.title {
   position: absolute;
   width: 736px;
-  height: 210px;
-  left: 24%;
-  top: 942px;
-}
-.lastQuizText {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 10px;
-
-  width: 736px;
-  height: 174px;
-
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-}
-.textPosta {
-  width: 736px;
-  height: 84px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-
-  color: #1b1b1e;
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  text-align: left;
-}
-.quizLast {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 12px;
-
-  width: 736px;
-  height: 80px;
-
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-}
-.quizText {
-  width: 736px;
-  height: 80px;
+  height: 200px;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
+  text-align: left;
 
   color: #000000;
+}
+
+.h {
+  position: absolute;
+  width: 736px;
+  height: 200px;
+  top: 110px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+
+  color: #1b1b1e;
+}
+.data {
+  position: absolute;
+
+  width: 284px;
+  height: 24px;
+  top: 190px;
 
   flex: none;
   order: 1;
-  align-self: stretch;
   flex-grow: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #808080;
+
   text-align: left;
 }
-.lastImg {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 8px;
-
-  width: 116px;
-  height: 16px;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.lastetsText {
-  width: 92px;
-  height: 16px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-
-  color: #017bff;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.ps {
-  width: 112px;
-  height: 24px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
-  color: #808080;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.tch {
-  width: 9px;
-  height: 24px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
-  color: #808080;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-.tch2 {
-  width: 9px;
-  height: 24px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
-  color: #808080;
-
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-}
-.lastread {
-  width: 91px;
-  height: 24px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
-  color: #808080;
-
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-}
-.date {
-  width: 54px;
-  height: 24px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
-  color: #808080;
-
-  flex: none;
-  order: 4;
-  flex-grow: 0;
-}
-.pss {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 8px;
-
-  width: 295px;
-  height: 24px;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  text-align: left;
+.title:hover {
+  color: #0797ff;
 }
